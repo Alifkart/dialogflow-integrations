@@ -31,8 +31,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const projectId = 'Place your dialogflow projectId here';
 const phoneNumber = "Place your twilio phone number here";
-const accountSid = 'Place your accountSid here';
-const authToken = 'Place your authToken here';
+const accountSid = 'AC1a20ce56f6860d906dc4e9db8bd65d11';
+const authToken = '85226bc1786f994762f5f8a15f44f832';
 
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
